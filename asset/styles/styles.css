@@ -1,7 +1,8 @@
-.tablaportafolio{
-    border: 1px red solid;
+table, tr, td{
+    border: 1px solid black;
 }
 
 .img{
-    width: 300;
+    width: 300px;
+    height: 300px;
 }
