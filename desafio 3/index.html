@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/CSS/styles.css">  <!--esta parte hace el llamado al archivo style.css-->
+        <script
+        src="http://kit.fontawesome.com/58b98c349a.js" crossorigin="anonymous"></script> <!--esto es para podear linkear las clases directo a la página-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> <!--esto se saca entero de google font escribiendo raleway y copiando el 'to embeded a font'-->   
+        <title>Pagina de iguanas</title>
+    </head>
+    <body class="body"> <!--le aplico la class=body para llamarlo de manera más específico en la hoja de style.css-->
+        <header>
+            <div>
+                <h1 class="titulo">Iguanas </h1>
+            </div>
+            <div>
+                <img src="assets/img/bg-header.jpg" alt="">
+            </div>
+        </header>
+        <main> <!--main divide a lo largo de la página en este caso son 3 la iguana grande, las características y las 3 fotos de iguana al final-->
+            <section class="section-description"><!-- Section un main en este caso la parte de descripción, característica y la galería de 3 fotos.-->
+                <div class="contenedor-parrafo"> <!--Aqui estamos en la sección descripción-->
+                    <p class="parrafo-caracteristica">
+                    La iguana es un reptil perteneciente a la familia Iguanadiae. Su tamaño está entre los 15 cm hasta los 2 metros de largo y puede llegar a pesar unos 15 kg. Cuando están jóvenes tienen una coloración con tonos verdes y al ir madurando predomina un color grisáceo con crestas o espinas en su espalda.<br><br>  La alimentación de la iguana va variando según su etapa de vida, pero la mayor parte de sus años son herbívoras. Viven en lugares tropicales con mucha vegetación y es un animal que puede ser domesticado.
+                    </p>
+                </div>
+    <!--aquí saqué los div de imagen-->
+                <img class="iguana-1" src="assets/img/iguana-1.jpg"/>
+            </section>
+            <section class="section-caracteristicas"> <!--Aquí pasamos a la sección características-->
+                <div>
+                    <h2 class="titulo-caracteristica">Características</h2>
+                </div>
+                <div class="contenedor-all-iconos">
+                    <div class="contenedor-icono">
+                        <i class="fa-regular fa-eye"></i>
+                        <p class="parrafo-icono">Tercer ojo</p>
+                    </div>
+                    <div class="contenedor-icono">
+                        <i class="fa-regular fa-hand-peace"></i>
+                        <p class="parrafo-icono">Pacíficas</p>
+                    </div>
+                    <div class="contenedor-icono">
+                        <i class="fa-solid fa-paintbrush"></i>
+                        <p class="parrafo-icono">Cambian de color</p>
+                    </div>
+                </div>
+            </section> 
+            <section class="section-galeria"> <!--Aquí pasamos a la sección galería-->
+                <img src="assets/img/iguana-2.jpg" 
+                class="img-galeria" alt=""/> <!-- para escribir en muchas lineas al mismo tiempo con alt se selecciona el cursor en todas las lineas y se genera un cursos más largo que permite repetir lo que estoy escribiendo en todas las lineas-->
+                <img src="assets/img/iguana-3.jpg" 
+                class="img-galeria" alt=""/>
+                <img src="assets/img/iguana-4.jpg" 
+                class="img-galeria" alt=""/>
+            </section>
+        </main>>
+        <footer class="footer">
+            <p class="parrafo-footer">
+                Visita https://www.anipedia.net/iguanas/iguana-verde/ para conocer más.
+            </p>
+        </footer>
+
+    </body>
+</html>

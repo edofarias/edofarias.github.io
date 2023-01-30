@@ -1,0 +1,83 @@
+/* las CSS están asociadas a las clases pero también se podría aplicar a las etiquetas */
+.body{ /*aquí estoy aplicando en background color negro a la que tiene la class=body que también es la etiqueta body */
+    background-color: black;
+    margin: 0;
+}
+.titulo{ /*aquí estoy aplicando a la etiqueta  header div h1 que tiene la class = titulo */
+    color: white;
+    text-align: center;
+    font: normal normal medium 50px/59px Raleway;
+    font-size: 50px;
+}
+.iguana-1{
+    width: 399px;
+    height: 237px;
+}
+.parrafo-icono{
+    color: white
+}
+.section-description{
+    height: 348px;
+    width: 100%;
+
+}
+.parrafo-caracteristica{
+    color: white;
+    width: 475px;
+    float: left;
+    padding-left: 150px;
+    padding-top: 75px;
+    font: normal normal 300 16px/19px Raleway;
+}
+.section-description img{
+    float: right;
+    display: inline-block;
+    width: 399px;
+    height: 237px;
+    padding-right: 150px;
+    padding-top: 45px;
+}
+.section-caracteristicas{
+    background-color: #1E1A13;
+    width: 100%;
+}
+.contenedor-all-iconos{
+    margin-top: 50px;
+    margin-left: 300 px;
+}
+.contenedor-icono{
+    display: inline-block;
+    float: center;
+    margin-left: 300px;
+    text-align: center;
+}
+.titulo-caracteristica{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    padding-top:75px;
+    font: normal normal medium 40px/47px Raleway;
+}
+
+i{
+    color: white
+}
+.section-galeria{
+    height: 348px;
+    padding-left:250px;
+}
+.img-galeria{ /* con esto estamos estandarizando las 3 imagenes de la galería */
+    width: 316px;
+    height: 202px;
+}
+.parrafo-footer{
+    color: white; /* aquí fue necesario poner ';' porque sino no toma la linea de abajo */
+    left: 299px;
+    padding-top: 38px;
+    text-align: center;
+}
+.footer{
+    background-color: #1E1A13;
+    height: 102px;
+
+}

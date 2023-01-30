@@ -1,0 +1,30 @@
+        .post{
+            margin-bottom: 50px;
+        }
+        header {
+            background: gray;
+            padding: 40px;
+            color:black
+        }
+        .post-container {
+            width: 800px;
+            margin: 100px  auto;
+        }
+        .thumbnail,
+        .post-content {
+            display: inline-block;
+            width: 49%;
+        }
+        .container{
+            position:relative;
+            text-align:center;
+            color: white;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+
+}
